@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 100%;
+    background-color: red;
+    padding: 20px 0 60px;
+    text-align: center;
+    color: white;
+    position: relative;
+    nav{
+        position: absolute;
+        bottom: 10px;
+        left: 120px;
+        a {
+            background-color: white;
+            color: black;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        a:hover {
+            color: white;
+            background-color: black;
+        }
+    }
+}

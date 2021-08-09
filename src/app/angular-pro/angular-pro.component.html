@@ -1,0 +1,21 @@
+<div class="container">
+    <h1>Todd motto</h1>
+    <div class="form-container">
+        <form-content (submitted)="userAccount($event)">
+            <!-- {{thats how we set value in ng-content}} -->
+            <h3>Create Account</h3>
+            <button type="submit">
+                Join Us
+            </button>
+        </form-content>
+        <form-content (submitted)="userLogin($event)">
+            <!-- {{thats how we set value in ng-content}} -->
+            <h3>Login</h3>
+            <auth-remember (checked)="onChecked($event)"></auth-remember>
+            <button type="submit">
+                Login
+            </button>
+        </form-content>
+    </div>
+</div>
+

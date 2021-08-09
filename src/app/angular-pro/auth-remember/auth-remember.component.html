@@ -1,0 +1,8 @@
+<form >
+    <label>
+        <!-- If I want to use this $event element i must add to .ts 
+            (value.target as HTMLInputElement then TypeScript see target element-->
+        <input type="checkbox" (change)="onChecked($event)">
+        Keep me Logged in 
+    </label>
+</form>

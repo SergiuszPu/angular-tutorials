@@ -1,0 +1,30 @@
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    h3 {
+        font-size: 30px;
+    }
+    label {
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+    input {
+        height: 50px;
+        width: 200px;
+        border-radius: 5px;
+    }
+    button {
+        width: 100px;
+        margin: auto;
+        border: none;
+        background-color: blueviolet;
+        color: white;
+        padding: 15px;
+        font-size: 18px;
+    }
+}
